@@ -42,7 +42,7 @@ export default async function Home() {
               {hello ? hello.greeting : "Loading tRPC query..."}
             </p>
           </div>
-    <p className="text-xl text-[hsl(280,100%,70%)]">Tinker with the {'<'}Latest Post{'>'} component below to display all posts.  Question to self: exactly is going on here?  </p>
+    <p className="text-xl text-white">Tinker with the {'<'}Latest Post{'>'} component below to display all posts.  Question to self: exactly is going on here?  </p>
           <LatestPost />
         </div>
       </main>
